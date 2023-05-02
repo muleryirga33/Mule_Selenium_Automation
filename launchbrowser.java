@@ -1,4 +1,4 @@
-package co.edurakel.selenium.webdriver.driver;
+package.selenium.webdriver.driver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -15,7 +15,7 @@ public class launchbrowser {
 
 	public static void main(String[] args) throws InterruptedException { 
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Program Files\\SELENIUM AUTOMATION\\BROWSER DRIVERS\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Program Files\\chromedriver.exe");
 		    driver = new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 			
